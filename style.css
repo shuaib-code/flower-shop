@@ -16,6 +16,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 150px;
 }
 .banner-title{
     margin-bottom: 20px;
@@ -128,4 +129,63 @@ input{
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 44px;
+}
+.hot-deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.hot-deal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 370px;
+}
+
+
+.feature-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.bonus{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.bonus-img{
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.colour-1{
+    background: rgba(167, 33, 98, 0.15);
+}
+.colour-2{
+    background: rgba(5, 151, 160, 0.15);
+}
+.colour-3{
+    background: rgba(71, 125, 17, 0.15);
+}
+.img-text-edit{
+    margin-top: 34px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
