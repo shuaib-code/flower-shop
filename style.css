@@ -4,6 +4,12 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+.margin{
+    margin: 80px 240px;
+}
+.center{
+    text-align: center;
+}
 .header{
     padding: 50px 240px 0px 240px;
     background-color: #E554731A;
@@ -70,9 +76,6 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
-.center{
-    text-align: center;
-}
 
 input{
     border-radius: 8px;
@@ -100,9 +103,29 @@ input{
     margin-top: 50px;
 }
 .subscribe{
-    margin: 120px 240px;
     background-image: url(img/Rectangle\ 9.png);
     background-repeat: no-repeat;
     max-height: 499px;
     border-radius: 8px;
+}
+
+.social-img{
+    display: flex;
+    justify-content: space-between;
+}
+.social-photo{
+    border-radius: 2px;
+}
+.instagram{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 22px;
+}
+.social-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 44px;
 }
