@@ -189,3 +189,22 @@ input{
     line-height: 35px;
     text-decoration-line: underline;
 }
+.support {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 100px 0px;
+}
+.support-p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.img-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
