@@ -209,3 +209,44 @@ input{
     justify-content: center;
     align-items: center;
 }
+.feedback-name{
+    color: rgba(43, 42, 42, 0.8);
+    font-size: 24px;
+    font-weight: 600;
+}
+.feedback-img{
+    border: white solid 3px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.feedback-content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.feedback-cover{
+    margin-bottom: 15px;
+}
+.feedback-p{
+    color: rgba(39, 39, 39, 0.719);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 44px;
+    font-style: oblique;
+}
+.feedback-photo{
+    width: 300px;
+    border: 3px solid #ffffff;
+    border-radius: 8px;
+    padding: 18px;
+}
+.feedback{
+    background: rgba(229, 84, 115, 0.05);
+    padding: 50px 240px;
+}
