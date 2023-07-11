@@ -73,3 +73,36 @@ body{
 .center{
     text-align: center;
 }
+
+input{
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 60px;
+    border: 0px;
+    margin-right: 6px;
+}
+.sub-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.coupon{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.subscribe-content{
+    padding: 120px 0px;
+}
+.input-btn{
+    margin-top: 50px;
+}
+.subscribe{
+    margin: 120px 240px;
+    background-image: url(img/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    max-height: 499px;
+    border-radius: 8px;
+}
