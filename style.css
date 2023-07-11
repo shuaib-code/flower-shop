@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.header{
+    padding: 50px 240px 0px 240px;
+    background-color: #E554731A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title{
+    margin-bottom: 20px;
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner-description{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    line-height: 30px;
+}
+.banner-contant{
+    text-align: left;
+    max-width: 600px;
+}
+.banner-img{
+    max-width: 600px;
+}
+.primary-btn{
+    background-color: #E55473;
+    color: #fff;
+    border: 0px;
+    border-radius: 8px;
+    padding: 20px 43px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
