@@ -1,6 +1,14 @@
 *{
     margin: 0px;
 }
+
+body {
+    transform: scale(0.8);
+    transform-origin: top left;
+    width: 125%;
+    overflow-x: hidden;
+}
+
 body{
     font-family: 'Lato', sans-serif;
 }
